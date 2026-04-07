@@ -33,7 +33,7 @@ async def scheduler():
     weekday = now.weekday()  # 0=Mon ... 6=Sun
     time_str = now.strftime("%H:%M")
 
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(DISCORD_CHANNEL_ID)
     if channel is None:
         return
 
