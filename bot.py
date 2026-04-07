@@ -61,4 +61,4 @@ async def scheduler():
         await channel.send(embed=embed)
 
 # ===== RUN =====
-client.run(TOKEN)
+client.run(DISCORD_BOT_TOKEN)
