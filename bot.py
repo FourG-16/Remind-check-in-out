@@ -5,8 +5,8 @@ import pytz
 import os
 
 # ===== CONFIG =====
-TOKEN = os.environ["DISCORD_BOT_TOKEN"]
-CHANNEL_ID = int(os.environ["DISCORD_CHANNEL_ID"])
+DISCORD_BOT_TOKEN = os.environ["DISCORD_BOT_TOKEN"]
+DISCORD_CHANNEL_ID = int(os.environ["DISCORD_CHANNEL_ID"])
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
