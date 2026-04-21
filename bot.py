@@ -55,7 +55,7 @@ async def scheduler():
     # ===== CHECK OUT =====
     if weekday != 0 and time_str == check_out_time:
         embed = discord.Embed(
-            description="🔻 [End time, check out now!](https://intranet.cennext.com/basic/web/index.php?r=timekeep%2Findex)",
+            description="🔻 [Work’s over! check out now!](https://intranet.cennext.com/basic/web/index.php?r=timekeep%2Findex)",
             color=0xff0000
         )
         await channel.send(embed=embed)
